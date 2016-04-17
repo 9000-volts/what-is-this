@@ -4,5 +4,9 @@ if !ARGV[0]
 end
 set :port, ARGV[0]
 get '/' do
-  "POTATO KNISHES"
+  erb :main
+end
+get '/orgs/?' do
+  data = `python main.py orgs #{params['username']}`
+  erb :main, :locals => {:data => data}
 end
