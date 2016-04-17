@@ -9,6 +9,9 @@ else:
     # oh cool this program can get github organization data
     if (sys.argv[1] == 'orgs'):
         import gh_orgs
+    # SAY WHAT? this program can run a server
+    if (sys.argv[1] == 'serve'):
+        import rb_serv_runner
     # oh cool this program isn't a program, let's say so
     else:
         print('Invalid subprogram!')
