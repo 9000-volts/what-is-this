@@ -12,6 +12,12 @@ else:
     # SAY WHAT? this program can run a server
     elif (sys.argv[1] == 'serve'):
         import rb_serv_runner
+    # OH HEY, YOU STOP THAT. and start compiling a java program, please
+    elif (sys.argv[1] == 'compile'):
+        import java_compiler_runner
+    # OH HEY WHAT? now we can run that java program
+    elif (sys.argv[1] == 'java'):
+        import java_program_runner
     # oh cool this program isn't a program, let's say so
     else:
         print('Invalid subprogram!')

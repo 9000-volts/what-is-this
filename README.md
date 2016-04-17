@@ -11,3 +11,4 @@ it to do something.
  * Python Requests module (`pip install requests`)
  * Ruby (accessible via `ruby` command in terminal)
  * Required ruby gems (from Gemfile) installed (`bundle install`)
+ * Java JDK (`javac`) and JRE (`java`) version 8 (7 might work, too)
