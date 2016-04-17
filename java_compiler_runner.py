@@ -4,3 +4,4 @@
 from subprocess import call
 # compile it
 call(["javac", "*.java"])
+print('Program Compiled!')

@@ -18,3 +18,15 @@ get '/orgs/?' do
   data = `python main.py orgs #{params['username']}`
   erb :main, :locals => {:data => data}
 end
+
+# Oh hey, we can compile that java thing as well.
+get '/compile/?' do
+  data = `python main.py compile`
+  erb :main, :locals => {:data => data}
+end
+
+# Oh hey, we can run that java thing as well.
+get '/java/?' do
+  data = `python main.py java`
+  erb :main, :locals => {:data => data}
+end
