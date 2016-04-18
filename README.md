@@ -16,4 +16,15 @@ it to do something.
  * NodeJS (accessible via `node` command in terminal)
  * Required nodejs modules (`npm i`)
  * The Bourne Again Shell (`bash`) (Cygwin or Git Bash will suffice on windows.)
- * PHP 5 (accessible vis `php` on the command line)
+ * PHP 5 (accessible via `php` on the command line)
+ * CoffeeScript (accessible via `coffee` on the command line)
+
+## Programming Language list
+ * Python
+ * Ruby
+ * Java
+ * Perl
+ * JavaScript
+ * Bash
+ * PHP
+ * CoffeeScript
