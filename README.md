@@ -16,3 +16,4 @@ it to do something.
  * NodeJS (accessible via `node` command in terminal)
  * Required nodejs modules (`npm i`)
  * The Bourne Again Shell (`bash`) (Cygwin or Git Bash will suffice on windows.)
+ * PHP 5 (accessible vis `php` on the command line)
