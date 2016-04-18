@@ -30,3 +30,9 @@ get '/java/?' do
   data = `python main.py java`
   erb :main, :locals => {:data => data}
 end
+
+# Oh waaaat? Node JS as well? Damndamndamn.
+get '/node/?' do
+  data = `node njs.js`
+  erb :main, :locals => {:data => data}
+end
