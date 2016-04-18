@@ -12,3 +12,4 @@ it to do something.
  * Ruby (accessible via `ruby` command in terminal)
  * Required ruby gems (from Gemfile) installed (`bundle install`)
  * Java JDK (`javac`) and JRE (`java`) version 8 (7 might work, too)
+ * Perl 5 (accessible via `perl` command in terminal) (Use strawberryperl.com on windows)
