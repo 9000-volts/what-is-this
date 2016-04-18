@@ -15,3 +15,4 @@ it to do something.
  * Perl 5 (accessible via `perl` command in terminal) (Use strawberryperl.com on windows)
  * NodeJS (accessible via `node` command in terminal)
  * Required nodejs modules (`npm i`)
+ * The Bourne Again Shell (`bash`) (Cygwin or Git Bash will suffice on windows.)
